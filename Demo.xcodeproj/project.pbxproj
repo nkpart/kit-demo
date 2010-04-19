@@ -20,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		475FD276117C16E8006DD119 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 474804EE117C092200F007CD /* KitDeps.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D /* KitDeps */;
+			remoteInfo = KitDeps;
+		};
 		4782FF93117C0C0B00973CE3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 474804EE117C092200F007CD /* KitDeps.xcodeproj */;
@@ -146,6 +153,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				475FD277117C16E8006DD119 /* PBXTargetDependency */,
 			);
 			name = Demo;
 			productName = Demo;
@@ -217,6 +225,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		475FD277117C16E8006DD119 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KitDeps;
+			targetProxy = 475FD276117C16E8006DD119 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
