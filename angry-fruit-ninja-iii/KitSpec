@@ -1,10 +1,4 @@
-KitSpec { 
-  specKit = Kit { 
-    kitName = "demo", kitVersion = "0.1" 
-  }, 
-  specDependencies = [
-    Kit { 
-      kitName = "functionalkit", kitVersion = "0.1"
-    }
-  ]
-}
+name: angry-fruit-ninja-iii
+version: 8
+dependencies:
+  - logface: 0.1
