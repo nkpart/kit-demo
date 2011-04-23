@@ -1,4 +1,3 @@
-build
-Kits
-*.perspectivev3
-*.pbxuser
+dist
+angry-fruit-ninja-iii/Kits
+logface/Kits
