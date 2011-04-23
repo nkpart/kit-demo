@@ -29,12 +29,7 @@ What Next
 
 Have a look at how angry-fruit-ninja-iii uses assets from the `Kits` directory that kit generated. In particular:
 
-  * A project dependency on `KitDeps.xcodeproj`
-  * Basing its configuration on `Kit.xcconfig`
-
-
-
-
-
-
+  * `KitDeps.xcodeproj` is a sub-project.
+  * The target has a direct dependency on the lib product of KitDeps.
+  * The project has based its configuration on `Kit.xcconfig`.
 
