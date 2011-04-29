@@ -30,6 +30,6 @@ What Next
 Have a look at how angry-fruit-ninja-iii uses assets from the `Kits` directory that kit generated. In particular:
 
   * `KitDeps.xcodeproj` is a sub-project.
-  * The target has a direct dependency on the lib product of KitDeps.
-  * The project has based its configuration on `Kit.xcconfig`.
+  * Angry Fruit Ninja's target has a direct dependency on the lib product of KitDeps.
+  * The Angry Fruit Ninja project has based its configuration on `Kit.xcconfig`.
 
